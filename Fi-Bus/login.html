@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        .register{
+            font-size: 1.4em;
+            color: #fff;
+            text-align: center;
+            margin: 25px 0 10px;
+            font-family: Arial, sans-serif;
+        }
+        .register p a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            background-color: black;
+            padding: 15px 100px;  
+        }
+        a:hover{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="your_login_script.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="register">
+                <p><a href="http://127.0.0.1:3000/arihant/index.html"> Login </a></p>
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+</html>
